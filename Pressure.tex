@@ -4,6 +4,7 @@
 \usepackage{microtype}
 \usepackage{verse}
 \usepackage{parskip}
+\usepackage{ellipsis}
 \usepackage{hyperref}
 
 \newcommand{\titlevar}{Pressure}
@@ -19,6 +20,13 @@
 }
 \setlength{\parindent}{0pt}
 
+\newcommand{\fade}{\dots}
+
 \begin{document}
 	\maketitle
+	
+	There is\fade what is\fade how do you calculate that\fade There \textbf{must} be a solution\fade Ahhh\fade
+	\begin{center}
+		Such pressure.
+	\end{center}
 \end{document}
